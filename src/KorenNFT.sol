@@ -4,7 +4,7 @@ import {ERC721} from "../lib/openzeppelin-contracts/contracts/token/ERC721/ERC72
 import {Base64} from "../lib/openzeppelin-contracts/contracts/utils/Base64.sol";
 import {Strings} from "../lib/openzeppelin-contracts/contracts/utils/Strings.sol";
 
-contract KORENNFT is ERC721 {
+contract KorenNFT is ERC721 {
 
     error NFTDetailsCannotBeZero();
     error NFTTotalMintCountError(uint256 _count);
